@@ -4,10 +4,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
     server: {
-        host: '10.10.10.23', // Masukkan IP kamu di sini
-        hmr: {
-            host: '10.10.10.23',
-        },
+        host: 'localhost',
+        port: 5173,
     },
     plugins: [
         laravel({
