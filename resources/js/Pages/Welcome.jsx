@@ -102,10 +102,7 @@ export default function Welcome({ auth }) {
                 {/* Hero Section */}
                 <section className="pt-40 pb-20 px-6 max-w-[1400px] mx-auto flex flex-col lg:flex-row items-center gap-16 min-h-[90vh]">
                     <div className="flex-1 text-center lg:text-left animate-slideRight">
-                        <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-emerald-50 border border-emerald-100 text-emerald-600 text-[11px] font-black uppercase tracking-widest mb-8 shadow-sm">
-                            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
-                            Inovasi Medis Berbasis IoT
-                        </div>
+                        
                         
                         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-slate-800 tracking-tighter mb-8 leading-[1.1]">
                             Satu Langkah Lebih Maju untuk <br className="hidden sm:block" />
